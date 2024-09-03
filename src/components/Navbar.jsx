@@ -8,12 +8,12 @@ const Navbar = () => {
           <AppBar>
               <Toolbar>
                   <Typography variant='h6' component="div" color="black">My App</Typography>&nbsp;&nbsp;&nbsp;
-                  <Typography variant='h6' component="div">
                       <Link to='/login'>
                           <Button variant="contained">LOGIN</Button></Link>&nbsp;&nbsp;&nbsp;
                       <Link to='/'>
                       <Button variant="contained">SIGN UP</Button></Link>
-                  </Typography>
+                        <Link to='/s'>
+                      <Button variant="contained">STATE</Button></Link>
               </Toolbar>
           </AppBar>
           <br /><br /><br />
